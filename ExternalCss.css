@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* ExternalCss.css*/
+div{ height:90px; line-height:90px; text-align:center; border:1px solid black;
+font-size:200%; font-weight:bold; width:600px; 
+background: #ff0000;
+background: -moz-linear-gradient(left,  #ff0000 0%, #ffff00 50%, #0000ff 100%);
+background: -webkit-linear-gradient(left,  #ff0000 0%,#ffff00 50%,#0000ff 100%);
+background: linear-gradient(to right,  #ff0000 0%,#ffff00 50%,#0000ff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff',GradientType=1 );
+}
